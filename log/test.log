@@ -1125,3 +1125,4 @@ Processing by StudentsController#show as HTML
   Parameters: {"id"=>"1"}
 Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
